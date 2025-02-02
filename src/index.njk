@@ -5,9 +5,10 @@ title: Home
 
 <h1>Micro blog streams</h1>
 
+<h2>Tags</h2>
+
 <ol>
   {% set taglist = collections.allTags %}
-  <p>Tags: {{taglist}}</p>
   {% for tag in taglist | reverse %}
     {% set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
     <li><a href="{{ tagUrl }}">{{ tag }}</a></li>

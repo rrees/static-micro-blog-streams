@@ -21,6 +21,7 @@ export default function() {
       path: `${dir}`
     }));
 
+  console.log(subdirectories);
   const result = {
     subdirectories
   };

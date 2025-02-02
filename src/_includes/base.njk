@@ -7,6 +7,11 @@
     <link rel="stylesheet" href="/css/base.css" />
   </head>
   <body>
+    <navbar>
+      <h2><a href="{{'index.njk' | inputPathToUrl}}">Home</a></h2>
+    </navbar>
+    <main>
     {{ content | safe }}
+    </main>
   </body>
 </html>
