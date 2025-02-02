@@ -1,0 +1,17 @@
+---
+layout: base.njk
+title: Books
+tags: Books
+---
+
+<h1>Books</h1>
+
+
+<ul>
+{% for dir in subdirectories %}
+  <li>
+    <a href="{{ dir.path }}">{{ dir.name }}</a>
+  </li>
+{% endfor %}
+</ul>
+
