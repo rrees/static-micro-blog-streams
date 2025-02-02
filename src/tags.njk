@@ -1,0 +1,15 @@
+---
+layout: base.njk
+title: All Tags
+---
+
+<h2>Tags</h2>
+
+<ol>
+  {% set taglist = collections.allTags %}
+  <p>Tags: {{taglist}}</p>
+  {% for tag in taglist | reverse %}
+    {% set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
+    <li><a href="{{ tagUrl }}">{{ tag }}</a></li>
+  {% endfor %}
+</ol>
