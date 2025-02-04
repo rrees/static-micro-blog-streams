@@ -1,6 +1,6 @@
 
 body {
-	font-family: Garamond, Baskerville, serif;
+	font-family: "Lucida Bright", Garamond, Baskerville, serif;
 	max-width: 70ch;
 	margin-inline: auto;
 	font-size: 16px;
@@ -9,4 +9,11 @@ body {
 
 h1, h2, h3 {
 	font-family: Georgia, Palatino, serif;
+}
+
+
+main {
+	p {
+		font-size: 1.2rem;
+	}
 }

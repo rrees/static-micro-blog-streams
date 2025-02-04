@@ -10,8 +10,10 @@
     <navbar>
       <h2><a href="{{'index.njk' | inputPathToUrl}}">Home</a></h2>
     </navbar>
+    {% block main %}
     <main>
     {{ content | safe }}
     </main>
+    {% endblock %}
   </body>
 </html>
