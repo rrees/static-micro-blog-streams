@@ -1,0 +1,14 @@
+{% extends 'base.njk' %}
+
+{% block main %}
+<main>
+{{ content | safe }}
+
+<p>Tags:   {% for tag in tags %}
+    {% set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
+    <a href="{{ tagUrl }}">{{ tag }}</a>
+  {% endfor %}
+</ol>
+</p>
+</main>
+{% endblock %}
