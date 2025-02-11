@@ -39,7 +39,7 @@ jobs:
           cache: 'npm'
 
       - name: Build
-        run: npx eleventy --pathprefix='static-micro-blog-streams'
+        run: npx @11ty/eleventy --pathprefix='static-micro-blog-streams'
         
       - name: Setup Pages
         uses: actions/configure-pages@v5
