@@ -1,3 +1,4 @@
+import { EleventyHtmlBasePlugin } from "@11ty/eleventy";
 
 export default async function(eleventyConfig) {
   eleventyConfig.setInputDirectory('src');
@@ -25,6 +26,9 @@ export default async function(eleventyConfig) {
     }
     return Array.from(uniqueTags);
   });
+
+  // Plugins
+  eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
 };
 
 
