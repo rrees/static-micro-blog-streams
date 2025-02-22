@@ -17,7 +17,9 @@ title: Home
 <ol>
   {% set taglist = collections.allTags %}
   {% for tag in taglist | reverse %}
+    {% if tag !== 'post' and tag !== 'page' %}
     {% set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
     <li><a href="{{ tagUrl }}">{{ tag }}</a></li>
+    {% endif %}
   {% endfor %}
 </ol>

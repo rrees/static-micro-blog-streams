@@ -1,6 +1,7 @@
 ---
 layout: post.njk
 title: Gar-type
+tags: post
 ---
 
 # Gar-type

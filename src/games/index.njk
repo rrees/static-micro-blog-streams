@@ -1,0 +1,16 @@
+---
+layout: base.njk
+title: Home
+---
+
+<h1>Games</h1>
+
+
+<ul>
+{% for dir in subdirectories %}
+  <li>
+    <a href="{{ dir.path }}">{{ dir.name }}</a>
+  </li>
+{% endfor %}
+</ul>
+
