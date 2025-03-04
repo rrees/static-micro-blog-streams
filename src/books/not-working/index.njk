@@ -2,15 +2,15 @@
 layout: base.njk
 title: "Not Working | Books"
 
+eleventyExcludeFromCollections: ['post', 'NotWorking']
 ---
 
 <h1>Not Working</h1>
 
-<ol>
-	{% set taglist = collections[ 'not-working' ] %}
-	{% for post in taglist | reverse %}
-	  <li><a href="{{ post.url }}">{{ post.data.title }}</a></li>
-	{% endfor %}
-</ol>
+<ul>
+{%- for post in collections['NotWorking'] | reverse -%}
+	<li><a href="{{post.url}}">{{ post.data.title }}</a></li>
+{%- endfor -%}
+</ul>
 
 <p>Tags: {{tags}}</p>
