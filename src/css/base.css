@@ -17,3 +17,8 @@ main {
 		font-size: 1.2rem;
 	}
 }
+
+.undecorated-list {
+	padding-inline-start: 0;
+	list-style: none;
+}
