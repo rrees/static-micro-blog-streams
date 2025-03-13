@@ -1,4 +1,5 @@
 import { EleventyHtmlBasePlugin } from "@11ty/eleventy";
+import { feedPlugin } from "@11ty/eleventy-plugin-rss";
 
 export default async function(eleventyConfig) {
   eleventyConfig.setInputDirectory('src');
@@ -29,6 +30,21 @@ export default async function(eleventyConfig) {
 
   // Plugins
   eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
+
+  eleventyConfig.addPlugin(feedPlugin, {
+    type: "rss",
+    outputPath: "feed.xml",
+    collection: {
+      name: 'post',
+      limit: 0,
+    },
+    metadata: {
+      lang: "en",
+      title: "Echo Forty",
+      description: "Small personal blog posts",
+      base: "https://rrees.github.io/static-micro-blog-streams/",
+    },
+  });
 };
 
 
