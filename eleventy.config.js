@@ -39,7 +39,7 @@ export default async function(eleventyConfig) {
       limit: 0,
     },
     metadata: {
-      lang: "en",
+      language: "en",
       title: "Echo Forty",
       description: "Small personal blog posts",
       base: "https://rrees.github.io/static-micro-blog-streams/",
