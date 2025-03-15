@@ -5,7 +5,7 @@
       <li>
         <article>
           {{post.content | safe}}
-          <p><a href="{{post.url}}">{{post.data.title}}</a></p>
+          <p><small><a href="{{post.url}}">{{post.data.title}}</a></small></p>
         </article>
       </li>
     {%- endfor -%}

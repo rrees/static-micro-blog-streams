@@ -39,3 +39,13 @@ nav {
 		margin-inline-end: 1.5rem;
 	}
 }
+
+article {
+	h2 {
+		font-size: 1.25rem;
+	}
+
+	h3 {
+		font-size: 1rem;
+	}
+}
