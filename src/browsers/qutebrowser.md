@@ -10,6 +10,8 @@ Written in Python and binding to the Qt library, using the [QtWebEngine](https:/
 
 The browser is immediately capable and plays video and renders most things fine, which is to perhaps be expected given the engine under the hood.
 
+CSS features such as `gap` and nested CSS don't seem to be supported though.
+
 One thing that is distinctive is that there is a Vim-like command shell with matching which is surprisingly intuitive once you get used to it and a lot easier than shortcuts while still being keyboard-driven.
 
 ## Links
