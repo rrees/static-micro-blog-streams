@@ -4,11 +4,19 @@ body {
 	max-width: 70ch;
 	margin-inline: auto;
 	font-size: 16px;
-	line-height: 1.2;
+	line-height: 1.5;
 }
 
 h1, h2, h3 {
 	font-family: Georgia, Palatino, serif;
+}
+
+a {
+	color: steelblue;
+}
+
+a:visited {
+	color: darkblue;
 }
 
 
