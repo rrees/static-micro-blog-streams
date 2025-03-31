@@ -1,28 +1,37 @@
+:root {
+	color-scheme: light dark;
+	--font-size: 16px;
+
+	--vampire-black: #080808;
+	--cetacean-blue: #000032;
+}
 
 body {
 	font-family: "Lucida Bright", Garamond, Baskerville, serif;
 	max-width: 70ch;
 	margin-inline: auto;
-	font-size: 16px;
+	font-size: var(--font-size);
 	line-height: 1.5;
+	background-color: light-dark(whitesmoke, var(--vampire-black));
+	color: light-dark(var(--cetacean-blue), whitesmoke);
 }
 
-h1, h2, h3 {
-	font-family: Georgia, Palatino, serif;
+h1, h2, h3 
+{	font-family: Georgia, Palatino, serif;
 }
 
 a {
-	color: steelblue;
+	color: light-dark(steelblue, white);
 }
 
 a:visited {
-	color: darkblue;
+	color: light-dark(darkblue, darkgrey);
 }
 
 
 main {
 	p {
-		font-size: 1.2rem;
+		font-size: 1.3rem;
 	}
 }
 
@@ -54,6 +63,10 @@ article {
 	}
 
 	h3 {
+		font-size: 1rem;
+	}
+
+	p {
 		font-size: 1rem;
 	}
 }
