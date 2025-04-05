@@ -6,6 +6,10 @@
 	--cetacean-blue: #000032;
 }
 
+@view-transition {
+  navigation: auto;
+}
+
 body {
 	font-family: "Lucida Bright", Garamond, Baskerville, serif;
 	max-width: 70ch;
