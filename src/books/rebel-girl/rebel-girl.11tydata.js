@@ -1,9 +1,9 @@
 export default function () {
 	return {
-		tags: ['Books', 'OneKensington'],
+		tags: ["RebelGirlBook"],
 		parentPage: {
 			name: 'Books',
 			path: 'books/index.njk',
 		}
-	}
+	};
 }
