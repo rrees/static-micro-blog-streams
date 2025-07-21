@@ -1,10 +1,12 @@
 ---
-layout: base.njk
-title: Books
-tags: Books
----
+layout: stream.njk
+title: Food
 
-<h1>Books</h1>
+streamName: Food
+postsTag: Food
+
+eleventyExcludeFromCollections: ['post', 'Food']
+---
 
 
 {% if subdirectories|length %}
