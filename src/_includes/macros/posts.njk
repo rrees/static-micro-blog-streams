@@ -1,5 +1,6 @@
 
 {% macro postsList(posts) %}
+{% if posts|length %}
 <ul class="undecorated-list">
     {%- for post in posts | reverse -%}
       <li>
@@ -10,4 +11,9 @@
       </li>
     {%- endfor -%}
 </ul>
+{% endif %}
+
+{% if not posts|length %}
+<p>There are no posts in the stream yet</p>
+{% endif %}
 {% endmacro %}

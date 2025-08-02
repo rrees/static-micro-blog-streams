@@ -23,7 +23,8 @@ export default function() {
 
   console.log(subdirectories);
   const result = {
-    subdirectories
+    subdirectories,
+    tags: ['Books'],
   };
 
   return result;
