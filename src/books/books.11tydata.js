@@ -17,7 +17,7 @@ export default function() {
              !item.startsWith('.');
     })
     .map(dir => ({
-      name: dir.replace('-', ' ').replace(/\b\w/g, s => s.toUpperCase()),
+      name: dir.replaceAll('-', ' ').replace(/\b\w/g, s => s.toUpperCase()),
       path: `${dir}`
     }));
 

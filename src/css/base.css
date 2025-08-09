@@ -61,6 +61,10 @@ nav {
 	}
 }
 
+blockquote {
+	font-style: italic;
+}
+
 article {
 	h2 {
 		font-size: 1.25rem;
