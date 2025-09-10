@@ -1,0 +1,21 @@
+---
+layout: base.njk
+title: Coding
+tags: Coding
+
+eleventyExcludeFromCollections: ['post', 'Coding']
+---
+
+<h1>Coding</h1>
+
+
+{% if subdirectories|length %}
+<ul>
+{% for dir in subdirectories %}
+  <li>
+    <a href="{{ dir.path }}">{{ dir.name }}</a>
+  </li>
+{% endfor %}
+</ul>
+{% endif %}
+
