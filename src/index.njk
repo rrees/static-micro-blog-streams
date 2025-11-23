@@ -37,6 +37,20 @@ topics:
 
 <h2>Tags</h2>
 
+<h3>By title</h3>
+
+<ol>
+  {% set taglist = collections.allTags %}
+  {% for tag in taglist | sort %}
+    {% if tag !== 'post' and tag !== 'page' %}
+    {% set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
+    <li><a href="{{ tagUrl }}">{{ tag }}</a></li>
+    {% endif %}
+  {% endfor %}
+</ol>
+
+<h3>By last edit</h3>
+
 <ol>
   {% set taglist = collections.allTags %}
   {% for tag in taglist | reverse %}
