@@ -2,6 +2,8 @@
 layout: post.njk
 title: Stereolab
 
+tags: Stereolab
+
 ---
 
 # Stereolab
