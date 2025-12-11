@@ -1,6 +1,8 @@
 ---
 layout: base.njk
-title: "{{ tag }}"
+
+eleventyComputed:
+  title: "{{ tag }}"
 
 pagination:
   data: collections
@@ -11,6 +13,10 @@ permalink: "tags/{{ tag | slugify }}/"
 ---
 
 <h1>{{tag}}</h1>
+
+<pre>
+{{tag}}
+</pre>
 
 <ol>
 	{% set taglist = collections[ tag ] %}
