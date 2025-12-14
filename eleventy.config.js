@@ -28,6 +28,10 @@ export default async function(eleventyConfig) {
     return Array.from(uniqueTags);
   });
 
+  eleventyConfig.addCollection("topics", function(collectionAPI) {
+    return collectionAPI.getAll().filter((item) => item.data.topic === true);
+  });
+
   // Plugins
   eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
 

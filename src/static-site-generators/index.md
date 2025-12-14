@@ -6,5 +6,7 @@ streamName: Static Site Generators
 postsTag: StaticSiteGenerators
 
 eleventyExcludeFromCollections: ['post', 'StaticSiteGenerators']
+
+topic: true
 ---
 

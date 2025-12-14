@@ -35,6 +35,12 @@ topics:
   {% endfor %}
 </ul>
 
+<ul>
+  {% for topic in collections.topics %}
+  <li><a href="{{topic.inputPath | inputPathToUrl}}">{{topic.data.title}}</a></li>
+  {% endfor %}
+</ul>
+
 <h2>Tags</h2>
 
 <h3>By title</h3>

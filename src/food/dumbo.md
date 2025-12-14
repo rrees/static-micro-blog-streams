@@ -2,6 +2,8 @@
 layout: post.njk
 title: Dumbo
 date: 2025-07-20
+
+tags: Hamburgers
 ---
 
 # Dumbo
