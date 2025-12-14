@@ -1,16 +1,21 @@
 ---
 layout: base.njk
 
+eleventyExcludeFromCollections: true
+
+pagination:
+  data: collections
+  size: 1
+  alias: tag
+
 eleventyComputed:
   title: "{{ tag }}"
-  permalink: tags/{{ tag | slugify }}/
+
+permalink: tags/{{ tag | slugify }}/
+
 ---
 
 <h1>{{tag}}</h1>
-
-<pre>
-{{tag}}
-</pre>
 
 <ol>
 	{% set taglist = collections[ tag ] %}

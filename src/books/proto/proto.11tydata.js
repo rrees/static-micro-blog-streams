@@ -1,6 +1,6 @@
 export default function () {
 	return {
-		tags: ['Books', 'Proto'],
+		tags: ['Proto'],
 		parentPage: {
 			name: 'Books',
 			path: 'books/index.njk',

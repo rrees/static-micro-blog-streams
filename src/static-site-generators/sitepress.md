@@ -1,7 +1,9 @@
 ---
 layout: post.njk
 title: Sitepress
-tags: Ruby, Rails
+tags:
+    - Ruby
+    - Rails
 ---
 
 # Sitepress
