@@ -1,7 +1,6 @@
 ---
 layout: post.njk
 title: Rails Commands
-tags: Rails
 date: 2025-09-09
 ---
 # Commands
