@@ -29,7 +29,9 @@ export default async function(eleventyConfig) {
   });
 
   eleventyConfig.addCollection("topics", function(collectionAPI) {
-    return collectionAPI.getAll().filter((item) => item.data.topic === true);
+    return collectionAPI.getAll().filter((item) => item.data.topic === true).sort(function(a, b) {
+      return a.data.title.localeCompare(b.data.title);
+    });
   });
 
   // Plugins
@@ -49,6 +51,7 @@ export default async function(eleventyConfig) {
       base: "https://rrees.github.io/static-micro-blog-streams/",
     },
   });
+
 };
 
 

@@ -1,26 +1,6 @@
 ---
 layout: base.njk
 title: Home
-
-topics:
-  - name: Books
-    path: books/index.njk
-  - name: Browsers
-    path: browsers/index.njk
-  - name: Coding
-    path: coding/index.njk
-  - name: Cooking
-    path: cooking/index.njk
-  - name: Food
-    path: food/index.njk
-  - name: Fonts
-    path: fonts/index.njk
-  - name: Games
-    path: games/index.njk
-  - name: Music
-    path: music/index.njk
-  - name: Python
-    path: python/index.njk
 ---
 
 <h1>Micro blog streams</h1>
@@ -29,14 +9,9 @@ topics:
 
 <h2>Topics</h2>
 
-<ul>
-  {% for topic in topics %}
-  <li><a href="{{topic.path | inputPathToUrl}}">{{topic.name}}</a></li>
-  {% endfor %}
-</ul>
 
 <ul>
-  {% for topic in collections.topics %}
+  {% for topic in collections.topics | sort %}
   <li><a href="{{topic.inputPath | inputPathToUrl}}">{{topic.data.title}}</a></li>
   {% endfor %}
 </ul>
