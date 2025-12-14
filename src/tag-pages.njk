@@ -3,13 +3,7 @@ layout: base.njk
 
 eleventyComputed:
   title: "{{ tag }}"
-
-pagination:
-  data: collections
-  size: 1
-  alias: tag
-
-permalink: "tags/{{ tag | slugify }}/"
+  permalink: tags/{{ tag | slugify }}/
 ---
 
 <h1>{{tag}}</h1>
