@@ -21,7 +21,7 @@ export default function() {
       path: `${dir}`
     }));
 
-  console.log(subdirectories);
+  // console.log(subdirectories);
   const result = {
     subdirectories,
     tags: ['Coding'],

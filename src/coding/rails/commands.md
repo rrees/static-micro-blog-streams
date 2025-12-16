@@ -3,7 +3,8 @@ layout: post.njk
 title: Rails Commands
 date: 2025-09-09
 ---
-# Commands
+
+# Rails CLI Commands
 
 ## Creating an app
 
