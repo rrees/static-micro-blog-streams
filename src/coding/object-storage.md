@@ -12,6 +12,7 @@ title: Object storage
 
 ## Object storage implementations
 
+* [Ceph](https://ceph.io/)
 * [RustFS](https://rustfs.dev/)
 
 ## Event streaming on object storage
