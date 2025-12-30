@@ -52,6 +52,12 @@ main {
 	gap: 0.25rem;
 }
 
+.stack {
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+}
+
 nav {
 	align-items: flex-start;
 	h2 {
@@ -66,6 +72,17 @@ blockquote {
 }
 
 article {
+	border: solid;
+	border-radius: 0.25rem;
+
+	padding-inline: 0.5rem;
+	padding-block-start: 0.5rem;
+
+	h1 {
+		font-size: 1.5rem;
+		margin-top: 0;
+	}
+
 	h2 {
 		font-size: 1.25rem;
 	}

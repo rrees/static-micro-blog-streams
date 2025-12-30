@@ -1,7 +1,7 @@
 
 {% macro postsList(posts) %}
 {% if posts|length %}
-<ul class="undecorated-list">
+<ul class="undecorated-list stack">
     {%- for post in posts | reverse -%}
       <li>
         <article>
