@@ -1,5 +1,9 @@
 export default function () {
 	return {
-		tags: ['Restaurants']
+		tags: ['Restaurants'],
+		parentPage: {
+			name: 'Restaurants',
+			path: 'restaurants/index.njk',
+		}
 	}
 }
