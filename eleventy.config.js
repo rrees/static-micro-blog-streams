@@ -52,6 +52,13 @@ export default async function(eleventyConfig) {
     },
   });
 
+  // Filters
+  eleventyConfig.addFilter('sortByLastModifiedDate', function(posts) {
+    if (posts instanceof Array) {
+      return posts.toSorted((a, b) => b.date - a.date).toReversed();
+    }
+
+    return posts;
+  });
+
 };
-
-
