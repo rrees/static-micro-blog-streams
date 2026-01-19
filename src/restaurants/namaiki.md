@@ -6,12 +6,13 @@ date: 2026-01-17
 
 tags:
  - Sushi
- -Soho
+ - Soho
+ - Omakase
 ---
 
 # Namaiki
 
-Counter sushi restaurant in Soho
+Counter sushi restaurant in Soho, chef made menus
 
 ## Links
 
