@@ -10,11 +10,18 @@ date: 2026-02-10
 ## Controls
 
 - X: light hit
+- Y: heavy hit
 - B; dodge roll
 
 Left trigger toggles the potions menu and the letter buttons map on the slotted quick use items
 
 Right trigger activates the special attack moves (Attack Conduits), again the letter keys selected a slotted attack
+
+Each region has specific powers that are bound to the left and right bumper buttons with the right button being a ranged one.
+
+## Combat
+
+Some creatures may have a blue shield bar that needs to be worn down using the ranged power for that region.
 
 
 ## Dungeons
@@ -22,3 +29,7 @@ Right trigger activates the special attack moves (Attack Conduits), again the le
 ### Bizarre Towers
 
 This is a great tribute to *Monument Valley* and the *Fez*. It's immediately delightful but also quite fiendish in its geometry bending. It made me wonder why more computer games don't make more use of their unreality at some point in their gameplay.
+
+## Links
+
+* [Game site](https://www.dungeonsofhinterberg.com/)
