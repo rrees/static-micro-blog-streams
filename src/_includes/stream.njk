@@ -9,7 +9,9 @@
 
 <h2>Posts</h2>
 
-{{ postsList(collections[postsTag]) }}
+{% set taggedPosts = collections[postsTag] | sortByLastModifiedDate %}
+
+{{ postsList(taggedPosts) }}
 
 
 {% if collections[postsTag] %}
