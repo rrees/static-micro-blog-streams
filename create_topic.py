@@ -25,7 +25,7 @@ data_file_template = Template(
 
 
 def create_topic(topic_name: str, tag_name: str):
-    normalised_topic_name = topic_name.lower().replace(" ", " - ")
+    normalised_topic_name = topic_name.lower().replace(" ", "-")
 
     topic_path = Path(f"src/{normalised_topic_name}")
 
