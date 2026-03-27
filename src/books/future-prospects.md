@@ -11,3 +11,7 @@ title: Future Prospects
 Unbroken Chains, a history of slavery in Africa
 
 The Salt Oracle, a post-collapse sci-fi novel set in the same world as the _We are all ghosts_
+
+The Ghost of Okuma, a homage to Japan
+
+The Death of Trotsky, a history of the assassination of Trotsky
