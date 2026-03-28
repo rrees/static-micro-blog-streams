@@ -15,3 +15,9 @@ The Salt Oracle, a post-collapse sci-fi novel set in the same world as the _We a
 The Ghost of Okuma, a homage to Japan
 
 The Death of Trotsky, a history of the assassination of Trotsky
+
+*War in the Smartphone Age* an overview of war in an age of information saturation
+
+*Playing outside the mainstream* essays on indie RPG
+
+*Catastrophic Success* looks at why external regime change so often goes wrong
