@@ -2,6 +2,8 @@
 layout: post.njk
 title: Stereolab
 
+date: 2025-12-06
+
 tags: Stereolab
 
 ---
