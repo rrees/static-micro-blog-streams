@@ -1,6 +1,7 @@
 ---
 title: Silent letters
 layout: post.njk
+date: 2026-04-27
 ---
 
 # Silent letters
