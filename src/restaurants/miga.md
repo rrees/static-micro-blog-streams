@@ -7,7 +7,9 @@ date: 2026-01-19
 
 # Miga
 
-A family-run Korean restaurant
+A family-run Korean restaurant at the bottom of Mare Street.
+
+The mung pancakes were delicious.
 
 ## Links
 
