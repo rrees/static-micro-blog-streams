@@ -9,6 +9,8 @@ date: 2026-05-04
 
 A contemporary computer game magazine connecting games to the wider cultural world.
 
+Not related to the Jank photography magazine.
+
 ## Links
 
 * [Homepage](https://www.jank.cool/welcome-to-jank/)
