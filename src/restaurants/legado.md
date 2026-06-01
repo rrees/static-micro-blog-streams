@@ -14,4 +14,4 @@ Contemporary Spanish food
 
 ## Links
 
-* [Home page](https://www.legadorestaurants.com/)
+* [Home page](https://www.legadorestaurants.com/	)
