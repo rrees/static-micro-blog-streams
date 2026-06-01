@@ -9,6 +9,8 @@ date: 2026-05-03
 
 [Marknote](https://apps.kde.org/marknote/) is a KDE note taking that is having Zettlekasten style linking added to it.
 
-Most of my Linux machines run on Gnome-based frontend which means using Marknote through Flatpak or Snaps seems the easiest route.
+Most of my Linux machines run on Gnome-based frontend which means using Marknote through Flatpak or Snap seems the easiest route.
 
 The basic notetaking functionality is all there in a native app.
+
+The note linking is a bit more clunky and requires a right-click to navigate to the linked note. Logseq is a bit more elegant here.

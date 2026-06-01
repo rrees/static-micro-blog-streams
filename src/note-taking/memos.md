@@ -11,6 +11,8 @@ A basic note-taking web application that allows the notes to be searched by text
 
 The server seems much more efficient to run than Electron but you do need to pin a tab or have some kind of PWA pin.
 
+The application uses an SQLite database so it is slightly less easy to use and save than the Markdown and file-system noting tools.
+
 
 ## Links
 
