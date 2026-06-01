@@ -21,3 +21,5 @@ The Death of Trotsky, a history of the assassination of Trotsky
 *Playing outside the mainstream* essays on indie RPG
 
 *Catastrophic Success* looks at why external regime change so often goes wrong
+
+*Servus* a history of Roman slavery
