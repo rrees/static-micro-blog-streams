@@ -2,7 +2,10 @@
 layout: post.njk
 title: Kate
 
-tags: KDE
+date: 2026-03-24
+
+categories:
+  - KDE
 
 ---
 
