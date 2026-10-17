@@ -12,7 +12,7 @@ tags:
 
 Has a fun toad mascot and pixel art on the homepage.
 
-A fork of the Zed editor but with the AI integration taken out and privacy prioritised.
+A fork of the [Zed editor](% "zed.md" | inputPathToUrl) but with the AI integration taken out and privacy prioritised.
 
 ## Links
 
