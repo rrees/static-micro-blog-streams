@@ -13,6 +13,10 @@ The server seems much more efficient to run than Electron but you do need to pin
 
 The application uses an SQLite database so it is slightly less easy to use and save than the Markdown and file-system noting tools.
 
+It is quite good for composing notes in Markdown to be pasted into other system. Search is good and the tags functionality is pretty reasonable.
+
+I haven't tried the interface on anything other than a reasonable laptop screen.
+
 
 ## Links
 
