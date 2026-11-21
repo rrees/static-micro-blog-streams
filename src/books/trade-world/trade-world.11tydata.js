@@ -1,6 +1,6 @@
 export default function () {
 	return {
-		tags: ['TradeWorld'],
+		tags: ['TradeWorldBook'],
 		parentPage: {
 			name: 'Books',
 			path: 'books/index.njk',
