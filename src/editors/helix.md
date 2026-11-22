@@ -12,4 +12,5 @@ A batteries-included editor that is inspired by Kakoune and which feels familiar
 ## Links
 
 - [Homepage](https://helix-editor.com/)
+- [Keymapping](https://docs.helix-editor.com/keymap.html)
 - [Shortcut cheatsheet](https://kapeli.com/cheat_sheets/Helix.docset/Contents/Resources/Documents/index)
